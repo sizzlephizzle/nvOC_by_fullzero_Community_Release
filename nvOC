@@ -206,9 +206,6 @@ Start()
 {
     if [ $LOCALorREMOTE == "LOCAL" ];then
        gnome-terminal
-    else   
-    if [ $LOCALorREMOTE == "REMOTE" ];then
-       bash /home/m1/2unix    #Sizzlephizzle : This creates multiple errors but restarts the screens etc as expected. ./2unix used to work in 19_1.4 but appears to have been broken in 19_2.
     else
       Reboot
     fi   
